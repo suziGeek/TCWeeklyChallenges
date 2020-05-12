@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeeklyChallenges", "WeeklyChallenges\WeeklyChallenges.csproj", "{B8A7A93B-4FCA-490E-8441-EB239E87C484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeeklyChallenges.Tests", "WeeklyChallenges.Tests\WeeklyChallenges.Tests.csproj", "{9336948F-94A4-43B7-A710-DCAC01E756D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A7A93B-4FCA-490E-8441-EB239E87C484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A7A93B-4FCA-490E-8441-EB239E87C484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A7A93B-4FCA-490E-8441-EB239E87C484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A7A93B-4FCA-490E-8441-EB239E87C484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9336948F-94A4-43B7-A710-DCAC01E756D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336948F-94A4-43B7-A710-DCAC01E756D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336948F-94A4-43B7-A710-DCAC01E756D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336948F-94A4-43B7-A710-DCAC01E756D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
