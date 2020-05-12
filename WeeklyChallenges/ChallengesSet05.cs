@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ChallengesWithTestsMark8
+namespace WeeklyChallenges
 {
     public class ChallengesSet05
     {

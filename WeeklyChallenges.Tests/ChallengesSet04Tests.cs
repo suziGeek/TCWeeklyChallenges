@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace ChallengesWithTestsMark8.Tests
+namespace WeeklyChallenges.Tests
 {
     public class ChallengesSet04Tests
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Xunit;
 
-namespace ChallengesWithTestsMark8.Tests
+namespace WeeklyChallenges.Tests
 {
     public class ChallengesSet05Tests
     {

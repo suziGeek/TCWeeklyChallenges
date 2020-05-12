@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChallengesWithTestsMark8
+namespace WeeklyChallenges
 {
     public class ChallengesSet01
     {

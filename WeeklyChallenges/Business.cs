@@ -1,5 +1,4 @@
-﻿
-namespace ChallengesWithTestsMark8
+﻿namespace WeeklyChallenges
 {
     public class Business
     {
