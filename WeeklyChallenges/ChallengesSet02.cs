@@ -8,8 +8,9 @@ namespace WeeklyChallenges
     {
         public bool CharacterIsALetter(char c)
         {
-            return true;
+            return Char.IsLetter(c);
         }
+
 
         public bool CountOfElementsIsEven(string[] vals)
         {
@@ -29,7 +30,12 @@ namespace WeeklyChallenges
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Count() == 0  )
+            { return 0; }
+            else
+            { return numbers.Min() + numbers.Max(); }
+
+
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
