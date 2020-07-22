@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace WeeklyChallenges
 {
@@ -7,27 +8,42 @@ namespace WeeklyChallenges
     {
         public bool ArrayContainsAFalse(bool[] vals)
         {
-            throw new NotImplementedException();
+            return vals.Contains(false) ;
         }
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
-        {
-            throw new NotImplementedException();
+        {   if(numbers == null)
+            { return false; }
+           
+            int x = 0;
+            foreach (var item in numbers)
+            {
+                if( item%2 != 0 )
+                {
+                    x = x + item;
+                }
+            }
+            return x%2 != 0;
         }
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
-            throw new NotImplementedException();
+            return 
+                password.Any(c => char.IsUpper(c)) &&
+                password.Any(c => char.IsDigit(c)) &&
+                password.Any(c => char.IsLower(c)); 
         }
 
         public char GetFirstLetterOfString(string val)
-        {
-            throw new NotImplementedException();
+        { 
+            
+            return val[0];
         }
 
         public char GetLastLetterOfString(string val)
         {
-            throw new NotImplementedException();
+            int last = val.Length - 1;
+            return val[last];
         }
 
         public decimal Divide(decimal dividend, decimal divisor)
@@ -47,7 +63,9 @@ namespace WeeklyChallenges
 
         public void ChangeAllElementsToUppercase(string[] words)
         {
-            throw new NotImplementedException();
+            string myWords = words.ToString();
+           var yourWords =  myWords.ToUpper();
+            return yourWords;
         }
     }
 }
