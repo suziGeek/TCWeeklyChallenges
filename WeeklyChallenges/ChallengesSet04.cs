@@ -6,7 +6,15 @@ namespace WeeklyChallenges
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            throw new NotImplementedException();
+            var sum = 0;
+            for (int x = 0; x < numbers.Length; x++) 
+                { 
+                if (numbers[x] % 2 == 0)
+                { sum = sum + numbers[x]; }
+                else
+                { sum = sum - numbers[x]; }
+                }
+            return sum;           
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
